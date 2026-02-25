@@ -77,7 +77,7 @@ A **tech stack** is like a recipe — it lists all the tools and ingredients use
 │  │  │(screens) │  │(reusable │  │  - auth info         │ │  │
 │  │  │          │  │ pieces)  │  │  - watchlist         │ │  │
 │  │  └────┬─────┘  └────┬─────┘  │  - settings          │ │  │
-│  │       │             │       └──────────────────────┘  │  │
+│  │       │             │        └──────────────────────┘ │  │
 │  │       └──────┬──────┘                                 │  │
 │  │              │                                        │  │
 │  │      ┌───────▼───────┐                                │  │
@@ -1512,4 +1512,5 @@ The code is organized cleanly into pages, components, services, stores, and libr
 ---
 
 *This documentation was generated to explain every aspect of the Voxani codebase in simple, accessible language.*
+
 
