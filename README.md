@@ -67,26 +67,26 @@ A **tech stack** is like a recipe — it lists all the tools and ingredients use
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     YOUR WEB BROWSER                         │
-│                                                              │
-│  ┌───────────────────────────────────────────────────────┐   │
-│  │                    REACT APP (Voxani)                  │   │
-│  │                                                        │   │
-│  │  ┌──────────┐  ┌──────────┐  ┌──────────────────────┐ │   │
-│  │  │  Pages   │  │Components│  │  State (Zustand)     │ │   │
-│  │  │(screens) │  │(reusable │  │  - auth info         │ │   │
-│  │  │          │  │ pieces)  │  │  - watchlist          │ │   │
-│  │  └────┬─────┘  └────┬─────┘  │  - settings          │ │   │
-│  │       │              │        └──────────────────────┘ │   │
-│  │       └──────┬───────┘                                 │   │
-│  │              │                                         │   │
-│  │      ┌───────▼───────┐                                 │   │
-│  │      │   Services    │                                 │   │
-│  │      │  (API calls)  │                                 │   │
-│  │      └───────┬───────┘                                 │   │
-│  └──────────────┼────────────────────────────────────────┘   │
-│                 │                                            │
-└─────────────────┼────────────────────────────────────────────┘
+│                     YOUR WEB BROWSER                        │
+│                                                             │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │                    REACT APP (Voxani)                 │  │
+│  │                                                       │  │
+│  │  ┌──────────┐  ┌──────────┐  ┌──────────────────────┐ │  │
+│  │  │  Pages   │  │Components│  │  State (Zustand)     │ │  │
+│  │  │(screens) │  │(reusable │  │  - auth info         │ │  │
+│  │  │          │  │ pieces)  │  │  - watchlist         │ │  │
+│  │  └────┬─────┘  └────┬─────┘  │  - settings          │ │  │
+│  │       │             │       └──────────────────────┘  │  │
+│  │       └──────┬──────┘                                 │  │
+│  │              │                                        │  │
+│  │      ┌───────▼───────┐                                │  │
+│  │      │   Services    │                                │  │
+│  │      │  (API calls)  │                                │  │
+│  │      └───────┬───────┘                                │  │
+│  └──────────────┼────────────────────────────────────────┘  │
+│                 │                                           │
+└─────────────────┼───────────────────────────────────────────┘
                   │ (Internet)
     ┌─────────────▼──────────────┐    ┌────────────────────┐
     │   Anime API Server         │    │   Supabase Cloud   │
@@ -1512,3 +1512,4 @@ The code is organized cleanly into pages, components, services, stores, and libr
 ---
 
 *This documentation was generated to explain every aspect of the Voxani codebase in simple, accessible language.*
+
